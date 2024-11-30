@@ -1,5 +1,6 @@
-(function() {
+(function () {
     const delay = 2000; // Wait time between actions in milliseconds
+    
     const scrollDelay = 1500; // Wait time between scrolls
 
     function scrollPage() {
@@ -10,7 +11,7 @@
     async function connect() {
         try {
             const buttons = document.querySelectorAll('button');
-            const connectButtons = Array.from(buttons).filter(btn => 
+            const connectButtons = Array.from(buttons).filter(btn =>
                 (btn.innerText.includes('Connect') || btn.innerText.includes('Conectar')) && !btn.disabled
             );
 
