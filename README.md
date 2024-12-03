@@ -1,6 +1,6 @@
 # LinkedIn Auto-Connect Script
 
-Este repositorio contiene un script automatizado que permite enviar solicitudes de conexión en LinkedIn de manera continua mientras se realiza un desplazamiento automático por la página. 
+Este repositorio contiene un script automatizado que permite enviar solicitudes de conexión en LinkedIn de manera continua mientras se realiza un desplazamiento automático por la página.
 
 ⚠ **Nota importante:** Automatizar acciones en LinkedIn puede violar sus términos y condiciones de uso. Este script se proporciona con fines educativos. Usa bajo tu propia responsabilidad.
 
@@ -8,11 +8,11 @@ Este repositorio contiene un script automatizado que permite enviar solicitudes 
 
 ## 🚀 ¿Cómo funciona?
 
-El script ejecuta los siguientes pasos:
-1. Busca todos los botones visibles en la página de LinkedIn.
-2. Filtra los botones que contienen las palabras **"Conectar"** o **"Connect"** y que no estén deshabilitados.
-3. Envía solicitudes de conexión a los perfiles visibles.
-4. Desplaza la página automáticamente para cargar más perfiles.
+El script ejecuta los siguientes pasos:  
+1. Busca todos los botones visibles en la página de LinkedIn.  
+2. Filtra los botones que contienen las palabras **"Conectar"** o **"Connect"** y que no estén deshabilitados.  
+3. Envía solicitudes de conexión a los perfiles visibles.  
+4. Desplaza la página automáticamente para cargar más perfiles.  
 5. Repite el proceso hasta que no haya más botones visibles.
 
 El script simula comportamiento humano al agregar un retraso aleatorio entre acciones para minimizar el riesgo de detección.
@@ -23,8 +23,8 @@ El script simula comportamiento humano al agregar un retraso aleatorio entre acc
 
 Sigue estos pasos para ejecutar el script desde la consola del navegador en LinkedIn:
 
-1. Abre LinkedIn e inicia sesión.
-2. Navega a una página donde haya personas que puedas conectar, como la sección "Personas que podrías conocer" o resultados de búsqueda de personas.
+1. Abre [LinkedIn](https://www.linkedin.com/) e inicia sesión.
+2. Navega a la sección "**Mi red**" (o cualquier página donde aparezcan personas a las que puedas conectar).
 3. Abre las herramientas de desarrollo de tu navegador:
    - En **Chrome** o **Edge**: Haz clic derecho en la página y selecciona "Inspeccionar".
    - Luego ve a la pestaña **Consola**.
@@ -39,7 +39,7 @@ Sigue estos pasos para ejecutar el script desde la consola del navegador en Link
 - **Retrasos**:
   - Tiempo entre acciones: 2 a 4 segundos (aleatorio para cada solicitud).
   - Tiempo de desplazamiento automático: 1.5 segundos.
-- **Compatibilidad**: 
+- **Compatibilidad**:
   - Funciona en navegadores basados en Chromium (Chrome, Edge, Brave).
   - Debe ejecutarse en páginas donde los botones de "Conectar" o "Connect" sean visibles.
 
